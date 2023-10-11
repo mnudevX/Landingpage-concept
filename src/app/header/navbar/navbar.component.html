@@ -4,7 +4,7 @@
       class="navbar navbar-expand-xl navbar-light bg-light"
       [class.active]="classApplied"
     >
-      <a class="navbar-brand" routerLink="/">
+      <a class="navbar-brand" href="#">
         <h3>Logo</h3>
       </a>
       <button class="navbar-toggler m-3" type="button" (click)="toggleClass()">
@@ -28,7 +28,7 @@
 
           <li class="nav-item">
             <a
-              href="#"
+              href="#process"
               class="nav-link"
               routerLinkActive="active-link"
               [routerLinkActiveOptions]="{ exact: true }"
@@ -38,7 +38,7 @@
 
           <li class="nav-item">
             <a
-              [routerLink]="['/projects']"
+              href="#services"
               routerLinkActive="active-link"
               [routerLinkActiveOptions]="{ exact: true }"
               class="nav-link"
@@ -48,7 +48,6 @@
 
           <li class="nav-item">
             <a
-              [routerLink]="['/contact']"
               routerLinkActive="active-link"
               [routerLinkActiveOptions]="{ exact: true }"
               class="nav-link"

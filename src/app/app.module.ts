@@ -10,6 +10,7 @@ import { NavbarComponent } from './header/navbar/navbar.component';
 import { HeroComponent } from './body/hero/hero.component';
 import { AboutComponent } from './body/about/about.component';
 import { ProcessComponent } from './body/process/process.component';
+import { ServicesComponent } from './body/services/services.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProcessComponent } from './body/process/process.component';
     NavbarComponent,
     HeroComponent,
     AboutComponent,
-    ProcessComponent
+    ProcessComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
