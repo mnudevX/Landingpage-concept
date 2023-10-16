@@ -11,6 +11,7 @@ import { HeroComponent } from './body/hero/hero.component';
 import { AboutComponent } from './body/about/about.component';
 import { ProcessComponent } from './body/process/process.component';
 import { ServicesComponent } from './body/services/services.component';
+import { ContactComponent } from './body/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ServicesComponent } from './body/services/services.component';
     HeroComponent,
     AboutComponent,
     ProcessComponent,
-    ServicesComponent
+    ServicesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
