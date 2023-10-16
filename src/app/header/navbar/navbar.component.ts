@@ -10,7 +10,6 @@ export class NavbarComponent implements OnInit {
   constructor(private cnService: CloseNavService) {}
 
   ngOnInit(): void {
-    //nimmt boolean entgegen
     this.cnService.openNav.subscribe((open) => {
       this.classApplied = open;
     });
