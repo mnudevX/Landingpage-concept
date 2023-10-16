@@ -4,7 +4,7 @@
 ## About the project 
 
 Landingpage concept with a contemporary design. Mobile Friendly and easy to navigate. 
-Live preview: /
+[Live demo](https://landingpage-concept.netlify.app/)
 
 ## Designed with:
 Figma
