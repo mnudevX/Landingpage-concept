@@ -632,15 +632,18 @@ body {
   }
 }
 
-//media queries
-@media only screen and (max-width: 767px) {
-  .as-footer-section .as-footer-content {
-    flex-wrap: wrap;
+@media only screen and (max-width: 550px) {
+  .as-footer-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     justify-content: center;
-    text-align: center;
   }
+}
 
+//media queries
+@media only screen and (max-width: 767px) {
   .as-process-section {
     height: auto;
 
